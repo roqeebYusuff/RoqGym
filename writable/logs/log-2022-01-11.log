@@ -1,0 +1,47 @@
+CRITICAL - 2022-01-11 18:57:40 --> Call to undefined method App\Filters\Auth::session()
+#0 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('auth/signin', 'before')
+#2 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\RoqGym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 19:24:39 --> Undefined variable $session
+#0 C:\xampp\htdocs\Codeigniter Projects\RoqGym\app\Filters\Auth.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('auth/signin', 'before')
+#3 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\RoqGym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 19:25:19 --> Undefined variable $session
+#0 C:\xampp\htdocs\Codeigniter Projects\RoqGym\app\Filters\Auth.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('auth/signin', 'before')
+#3 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\RoqGym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 19:25:43 --> Undefined variable $session
+#0 C:\xampp\htdocs\Codeigniter Projects\RoqGym\app\Filters\Auth.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('auth/signin', 'before')
+#3 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\RoqGym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 19:26:03 --> Undefined variable $session
+#0 C:\xampp\htdocs\Codeigniter Projects\RoqGym\app\Filters\Auth.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('auth/signin', 'before')
+#3 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\RoqGym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 19:26:37 --> Undefined variable $session
+#0 C:\xampp\htdocs\Codeigniter Projects\RoqGym\app\Filters\Auth.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('auth/signin', 'before')
+#3 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\RoqGym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\RoqGym\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
