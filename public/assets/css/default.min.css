@@ -39,6 +39,10 @@
     src: url('../font/bellotaText/BellotaText-Bold.ttf');
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --shade-1: #FFA822;
     --shade-2: #134E6F;
@@ -142,6 +146,7 @@ a:hover{
 #banner{
     position: relative;
     padding: 0px 30px;
+    background-color: beige;
     overflow: hidden;
 }
 
@@ -153,7 +158,7 @@ a:hover{
 #banner .main .main-title{    
     position: relative;
     font-size: 40px;
-    font-family: 'custom1-bold';
+    font-family: 'custom2-bold';
     font-weight: 900;
     line-height: 1.1;
 }
@@ -300,6 +305,7 @@ a:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background: beige;
     transition: all .3s ease-in-out;
+    margin-bottom: 18px;
     /* z-index: 2; */
 }
 
@@ -357,6 +363,7 @@ a:hover{
     position: relative;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 25px;
+    margin-bottom: 20px;
     transition: all .3s ease-in-out;
 }
 
@@ -367,14 +374,24 @@ a:hover{
 
 .single-trainer .image{
     position: relative;
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-bottom: 10px;
     transition: all .8s ease;
 }
 
-.single-trainer:hover .image{
+.single-trainer .image img{
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    transition: all .8s ease;
+}
+
+@media screen and (max-width: 992px) {
+    .single-trainer .image img{
+        height: 150px;
+    }
+}
+
+.single-trainer:hover .image img{
     transition: all .8s ease;
     transform: translate(-8%, -8%);
 }
@@ -435,30 +452,91 @@ a:hover{
     height: 90px;
     margin: auto;
     margin-top: 10px;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    overflow: hidden;
-}
-
-.single-testimonial .image::before{
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    border: 1px solid red;
-    background: red;
-    z-index: -1;
 }
 
 .single-testimonial .image img{
-    /* height: 60px; */
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.single-testimonial .image::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 1px solid var(--shade-2);
+    /* background: red; */
+    z-index: -1;
+}
+
+#footer{
+    padding: 40px 0px;
+    background-color: #c0dddf;
+}
+
+#footer .rg-foot img{
+    height: 30px;
+}
+
+.single-footer-widget .head{
+    margin-bottom: 10px;
+}
+
+.single-footer-widget .head h4{
+    font-family: "custom2-bold";
+    font-size: 1.1rem;
+}
+
+.single-footer-widget .footer-links{
+    list-style: none;
+}
+
+.single-footer-widget .footer-links li{
+    margin-bottom: 6px;
+}
+
+.footer-social-wrap{
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social-wrap li{
+    display: inline;
+    margin-right: 7px;
+}
+
+.footer-social-wrap li i{
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 991px) {
     .rg-navbar-wrapper{
         padding: 10px 30px;
+    }
+    #banner{
+        /* overflow: unset; */
+        padding-top: 4rem;
+    }
+    #banner .main{
+        height: 100%;
+    }
+    #banner .main .right{
+        margin-top: 1rem;
+    }
+    #banner .main .right img{
+        height: 350px;
+    }
+    #banner .main .main-title{
+        font-size: 35px;
+    }
+    #banner .main .arrow{
+        display: none;
     }
 }

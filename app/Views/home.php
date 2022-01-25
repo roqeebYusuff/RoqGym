@@ -4,9 +4,9 @@
             <div class="col-lg-6 left align-self-center">
                 <h2 class="main-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                 <h5 class="sub-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ducimus nostrum nulla autem error in numquam ipsum libero, eveniet esse magni excepturi aliquid, beatae accusantium similique placeat, nemo minus dolore.</h5>
-                <a href="#" class="rg-btn">Button</a>
+                <a href="#" class="btn rg-btn">Register</a>
             </div>
-            <div class="col-lg-6 right">
+            <div class="col-lg-6 right text-center">
                 <img class="img-fluid" src="<?php echo base_url() ?>/assets/images/bg/landing_bg.png" alt="">
             </div>
         </div>
@@ -19,7 +19,7 @@
     </div>
 </section>
 
-<section id="reasons">
+<section id="reasons" class="section-spacing">
     <div class="rg-container">
         <div class="rg-title text-center">
             <h4>Welcome to <br> <span>RoqGYM</span></h4>
@@ -97,7 +97,7 @@
                 <a href="" class="rg-btn">Button 2</a>
             </div>
 
-            <div class="col-md-6 align-self-center">
+            <div class="col-md-6 align-self-center mt-4 text-center">
                 <div class="image">
                     <img class="img-fluid" src="<?php echo base_url() ?>/assets/images/bg/abt.png" alt="#aboutImage">
                 </div>
@@ -109,11 +109,11 @@
 <section id="CTA">
     <div class="rg-container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-md-6 left">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 left">
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laborum ducimus nobis culpa vel impedit exercitationem facilis facere iusto.</p>
             </div>
-            <div class="col-md-6 right align-self-center text-right">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 right align-self-center text-right">
                 <a href="" class="rg-btn">Get Started</a>
             </div>
         </div>
@@ -239,18 +239,15 @@
         <div class="rg-title text-center">
             <h4>Our <br> <span>Trainers</span></h4>
         </div>
-        <div class="row mt-4">
-            <div class="col-md-3">
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="single-trainer p-3">
-                    <div class="image">
+                    <div class="image text-center">
                         <img src="<?php echo base_url() ?>/assets/images/user/01.jpg" alt="#trainer" class="img-fluid">
                     </div>
 
                     <div class="name text-center">Bilal Gibson</div>
                     <div class="social-wrap text-center">
-                        <!-- <div class="row">
-                            
-                        </div> -->
                         <ul class="">
                             <li>
                                 <i class="ri-facebook-fill"></i>
@@ -272,17 +269,14 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="single-trainer p-3">
-                    <div class="image">
+                    <div class="image text-center">
                         <img src="<?php echo base_url() ?>/assets/images/user/02.jpg" alt="#trainer" class="img-fluid">
                     </div>
 
                     <div class="name text-center">Bilal Gibson</div>
                     <div class="social-wrap text-center">
-                        <!-- <div class="row">
-                            
-                        </div> -->
                         <ul class="">
                             <li>
                                 <i class="ri-facebook-fill"></i>
@@ -304,9 +298,9 @@
                 </div>
             </div>
             
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="single-trainer p-3">
-                    <div class="image">
+                    <div class="image text-center">
                         <img src="<?php echo base_url() ?>/assets/images/user/03.jpg" alt="#trainer" class="img-fluid">
                     </div>
 
@@ -336,9 +330,9 @@
                 </div>
             </div>
             
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="single-trainer p-3">
-                    <div class="image">
+                    <div class="image text-center">
                         <img src="<?php echo base_url() ?>/assets/images/user/04.jpg" alt="#trainer" class="img-fluid">
                     </div>
 
@@ -438,14 +432,39 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="testimonial-slick">
-                        <div class="col-md-6 m-auto">
-                            <div class="single-testimonial">
-                                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quam, voluptatem aliquid dolorem earum, ad deserunt temporibus ipsam esse magni asperiores voluptatum tempore dolore excepturi blanditiis nesciunt laudantium, explicabo doloremque.</p>
-                                <h4>Billa Gibson</h4>
-                                <span class="who">Position</span>
-                                <div class="image">
-                                    <img class="img-fluid" src="<?php echo base_url() ?>/assets/images/user/12.jpg" alt="#testimonial">
-                                </div>
+                        <div class="single-testimonial">
+                            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quam, voluptatem aliquid dolorem earum, ad deserunt temporibus ipsam esse magni asperiores voluptatum tempore dolore excepturi blanditiis nesciunt laudantium, explicabo doloremque.</p>
+                            <h4>Billa Gibson</h4>
+                            <span class="who">Position</span>
+                            <div class="image">
+                                <img class="img-fluid" src="<?php echo base_url() ?>/assets/images/user/12.jpg" alt="#testimonial">
+                            </div>
+                        </div>
+
+                        <div class="single-testimonial">
+                            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quam, voluptatem aliquid dolorem earum, ad deserunt temporibus ipsam esse magni asperiores voluptatum tempore dolore excepturi blanditiis nesciunt laudantium, explicabo doloremque.</p>
+                            <h4>Billa Gibson</h4>
+                            <span class="who">Position</span>
+                            <div class="image">
+                                <img class="img-fluid" src="<?php echo base_url() ?>/assets/images/user/12.jpg" alt="#testimonial">
+                            </div>
+                        </div>
+
+                        <div class="single-testimonial">
+                            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quam, voluptatem aliquid dolorem earum, ad deserunt temporibus ipsam esse magni asperiores voluptatum tempore dolore excepturi blanditiis nesciunt laudantium, explicabo doloremque.</p>
+                            <h4>Billa Gibson</h4>
+                            <span class="who">Position</span>
+                            <div class="image">
+                                <img class="img-fluid" src="<?php echo base_url() ?>/assets/images/user/12.jpg" alt="#testimonial">
+                            </div>
+                        </div>
+
+                        <div class="single-testimonial">
+                            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quam, voluptatem aliquid dolorem earum, ad deserunt temporibus ipsam esse magni asperiores voluptatum tempore dolore excepturi blanditiis nesciunt laudantium, explicabo doloremque.</p>
+                            <h4>Billa Gibson</h4>
+                            <span class="who">Position</span>
+                            <div class="image">
+                                <img class="img-fluid" src="<?php echo base_url() ?>/assets/images/user/12.jpg" alt="#testimonial">
                             </div>
                         </div>
                     </div>

@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="<?php echo base_url() ?>/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
         <link rel="stylesheet" href="<?php echo base_url() ?>/assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
         <link rel="stylesheet" href="<?php echo base_url() ?>/assets/vendor/remixicon/fonts/remixicon.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>/assets/vendor/slick/slick.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>/assets/vendor/slick/slick-theme.css">
     </head>
     <body>        
         <div id="loading">
@@ -40,16 +42,22 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Link</a>
+                                    <a href="#" class="nav-link">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Link</a>
+                                    <a href="#" class="nav-link">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Link</a>
+                                    <a href="#" class="nav-link">Pricing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Link</a>
+                                    <a href="#" class="nav-link">Trainers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Testimonial</a>
                                 </li>
                                 <li class="nav-item auth">
                                     <a href="<?php echo base_url('auth/signin') ?>" class="nav-link">Sign in</a>
