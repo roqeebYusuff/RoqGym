@@ -70,9 +70,9 @@
                                         </div>
                                     </div>
 
-                                    <button type="submit" class="btn btn-block btn-primary">Sign Up</button>
+                                    <button type="submit" class="btn btn-block rg-btn">Sign Up</button>
                                     <p class="mt-3">
-                                    Already have an Account <a href="<?php echo base_url('auth/signin') ?>" class="text-primary">Sign In</a>
+                                    Already have an Account <a href="<?php echo base_url('auth/signin') ?>" class="text-rg">Sign In</a>
                                     </p>
 
                                 <?php echo form_close() ?>

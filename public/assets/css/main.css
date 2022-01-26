@@ -31,6 +31,12 @@
   --iq-purple: rgba(71, 49, 182, 0.1); }
 
 :root {
+  --shade-1: #FFA822;
+  --shade-2: #134E6F;
+  --shade-3: #FF6150;
+  --shade-4: #1AC0C6;
+  --shade-5: #DEE0E6;
+  --gradient-1: linear-gradient(266.68deg, #FF9A22 -24.54%, #FF6150 108.12%);
   --blue: #8f93f6;
   --indigo: #6610f2;
   --purple: #4731b6;
@@ -159,11 +165,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #8f93f6;
+  color: #FF6150;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #484ff0;
+    color: #134E6F;
     text-decoration: none; }
 
 a:not([href]) {
@@ -6769,6 +6775,10 @@ button.bg-pink:focus {
 .font-italic {
   font-style: italic !important; }
 
+.text-rg{
+  color: var(--shade-3);
+}
+
 .text-white {
   color: #fff !important; }
 
@@ -8615,8 +8625,8 @@ body.sidebar-main .iq-top-navbar {
   display: none; }
 
 .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #8f93f6;
-  border-color: #8f93f6; }
+  background-color: var(--shade-3);
+  border-color: var(--shade-1); }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
   background-color: #c6c8f7;
@@ -8857,7 +8867,7 @@ body.sidebar-main .iq-top-navbar {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: #535f6b;
+    color: #ffffff;
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: none;
@@ -8875,6 +8885,16 @@ body.sidebar-main .iq-top-navbar {
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
+
+.rg-btn{
+  position: relative;
+  display: inline;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 35px;
+  padding: 5px 10px;
+  background: var(--gradient-1);
+}
 
 .btn-primary {
   color: #fff;
@@ -14971,7 +14991,7 @@ label {
 .form-control {
   height: 45px;
   line-height: 45px;
-  background: #fafbfe;
+  background: #ef87340d;
   border: 1px solid #f1f1f1;
   font-size: 14px;
   color: #535f6b;
@@ -14983,7 +15003,7 @@ label {
   box-shadow: none; }
   .form-control:focus {
     color: #01041b;
-    border-color: #8f93f6;
+    border-color: var(--shade-3);
     box-shadow: none; }
 
 .form-control-sm {
@@ -15514,10 +15534,11 @@ ul.pricing-list li {
     border-color: #f1f1f1; }
     .login-content .form-control:focus {
       border-width: 2px;
-      border-color: #8f93f6; }
+      border-color: var(--shade-3); }
   .login-content .custom-control-label::before {
     background-color: #fafbfe; }
   .login-content .sign-user_card {
+    background: #fff;
     padding: 30px;
     border: 1px solid #f1f1f1;
     text-align: center;
@@ -15537,7 +15558,7 @@ ul.pricing-list li {
   margin-bottom: 20px; }
 
 .floating-input:focus ~ label {
-  color: #8f93f6;
+  color: var(--shade-3);
   top: 0;
   left: 6px;
   font-size: 10px;

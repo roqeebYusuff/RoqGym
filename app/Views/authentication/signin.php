@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="<?php echo base_url() ?>/assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
         <link rel="stylesheet" href="<?php echo base_url() ?>/assets/vendor/remixicon/fonts/remixicon.css">
     </head>
-    <body>        
+    <body >        
         <div id="loading">
             <div id="loading-center">
             </div>
@@ -53,13 +53,13 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <a href="<?php echo base_url('auth/reset') ?>" class="text-primary float-right">Forgot Password?</a>
+                                            <a href="<?php echo base_url('auth/reset') ?>" class="text-rg float-right">Forgot Password?</a>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+                                    <button type="submit" class="btn btn-block rg-btn">Sign In</button>
 
                                     <p class="mt-3">
-                                    Create an Account <a href="<?php echo base_url('auth/signup') ?>" class="text-primary">Sign Up</a>
+                                    Create an Account <a href="<?php echo base_url('auth/signup') ?>" class="text-rg">Sign Up</a>
                                     </p>
                                 <?php echo form_close() ?>
                             </div>

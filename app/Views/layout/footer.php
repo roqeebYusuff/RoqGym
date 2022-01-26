@@ -26,20 +26,23 @@
 					<div class="col-lg-3 col-md-6 col-sm-12">
 						<div class="single-footer-widget">
 							<div class="head">
-								<h4>Footer Header 1</h4>
+								<h4>Useful Links</h4>
 							</div>
-							<ul class="footer-links">
+							<ul class="footer-links p-0">
 								<li>
-									<a href="">Link 1</a>
+									<a href="">Home</a></a>
 								</li>
 								<li>
-									<a href="">Link 2</a>
+									<a href="">About</a>
 								</li>
 								<li>
-									<a href="">Link 3 </a>
+									<a href="">Pricing</a>
 								</li>
 								<li>
-									<a href="">Link 4 </a>
+									<a href="">Trainers</a>
+								</li>
+								<li>
+									<a href="">Contact</a>
 								</li>
 							</ul>
 						</div>

@@ -60,9 +60,9 @@ html{
     display: block !important;
 }
 
-a:hover{
+/* a:hover{
     color: #fff;
-}
+} */
 
 .rg-btn{
     position: relative;
