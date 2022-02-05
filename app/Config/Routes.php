@@ -39,6 +39,11 @@ $routes->get('/', 'Home::index');
 //     $routes->add('signup', 'Authentication::signup');
 // });
 
+// User Signed
+$routes->group('user', ['filter'=> 'auth'], function ($routes){
+    $routes->add('dashboard', 'Dashboard::index');
+});
+
 /* Auth */
 $routes->group('auth', function ($routes) {
     $routes->add('signin', 'Authentication::signin');

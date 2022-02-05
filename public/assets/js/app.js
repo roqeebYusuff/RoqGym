@@ -56,6 +56,12 @@ Index Of Script
 
     jQuery(document).ready(function() {
 
+        /*---------------------------------------------------------------------
+       Page Loader
+       -----------------------------------------------------------------------*/
+       jQuery("#load").fadeOut();
+       jQuery("#loading").delay().fadeOut("");
+
         new WOW().init();
 
         /*---------------------------------------------------------------------
@@ -227,13 +233,6 @@ Index Of Script
             }
             elem.find('i').toggleClass('ri-fullscreen-line').toggleClass('ri-fullscreen-exit-line');
         });
-
-
-        /*---------------------------------------------------------------------
-       Page Loader
-       -----------------------------------------------------------------------*/
-        jQuery("#load").fadeOut();
-        jQuery("#loading").delay().fadeOut("");
 
 
 

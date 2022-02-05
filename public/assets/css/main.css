@@ -7155,21 +7155,21 @@ a.text-pink:hover, a.text-pink:focus {
       background: transparent; }
 
 .sidebar-default .iq-sidebar-menu .iq-menu li a:hover {
-  color: #8f93f6; }
+  color: var(--shade-3); }
 
 .sidebar-default .iq-sidebar-menu .iq-menu li a[aria-expanded="true"] {
-  color: #8f93f6;
+  color: var(--shade-3); ;
   text-decoration: none;
   border-radius: 0;
   transition: none; }
   .sidebar-default .iq-sidebar-menu .iq-menu li a[aria-expanded="true"] i.iq-arrow-left {
-    color: #8f93f6; }
+    color: var(--shade-3); ; }
 
 .sidebar-default .iq-sidebar-menu .iq-menu li .iq-submenu li a:hover {
   background: transparent; }
 
 .sidebar-default .iq-sidebar-menu .iq-menu li ul a:hover {
-  color: #8f93f6;
+  color: var(--shade-3); ;
   text-decoration: none;
   background: transparent; }
 
@@ -7186,11 +7186,11 @@ a.text-pink:hover, a.text-pink:focus {
   margin: 0; }
 
 .sidebar-default .iq-sidebar-menu .iq-menu > li.active > a {
-  color: #8f93f6;
+  color: var(--shade-3); ;
   text-decoration: none; }
 
 .sidebar-default .iq-sidebar-menu .iq-menu li.active .iq-submenu li.active > a {
-  color: #8f93f6;
+  color: var(--shade-3); ;
   border-radius: 0; }
 
 .sidebar-default .iq-sidebar-menu .iq-menu li.active .iq-submenu li:last-child > a {
@@ -7325,7 +7325,7 @@ a.text-pink:hover, a.text-pink:focus {
 .wrapper-menu {
   font-size: 30px;
   text-align: center;
-  color: #8f93f6;
+  color: var(--shade-3);
   position: relative;
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
@@ -8057,8 +8057,8 @@ body.sidebar-main .iq-top-navbar {
     line-height: normal;
     min-height: unset; }
     .iq-top-navbar .navbar-toggler {
-      color: #8f93f6;
-      background: #c6c8f7;
+      color: var(--shade-2);
+      background: var(--gradient-1);
       border: none;
       padding: 7px 10px 3px;
       border-radius: 5px;
@@ -15656,7 +15656,7 @@ ul.iq-contact-rest li a p {
   bottom: 0px;
   overflow: hidden !important;
   right: 0px;
-  z-index: 999999; }
+  z-index: 999; }
 
 #loading-center {
   background: url(../images/loader.png) no-repeat scroll center center;

@@ -422,12 +422,12 @@ html{
 /* Contact */
 #contact{
     position: relative;
-    background: #a5c9cb;
+    background: beige;
     padding: 30px 0;
 }
 
-#contact .image img{
-    height: 350px;
+#contact .form-control{
+    background: #fff;
 }
 
 #testimonial .icon{
@@ -500,6 +500,10 @@ html{
 
 .single-footer-widget .footer-links li{
     margin-bottom: 6px;
+}
+
+.single-footer-widget .form-control{
+    background: #fff;
 }
 
 .footer-social-wrap{

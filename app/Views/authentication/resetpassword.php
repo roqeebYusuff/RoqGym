@@ -41,9 +41,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-block btn-primary">Reset</button>
+                                <button type="submit" class="btn btn-block rg-btn">Reset</button>
                                 <p class="mt-3">
-                                    Back to <a href="<?php echo base_url('auth/signin') ?>" class="text-primary">Sign In</a>
+                                    Back to <a href="<?php echo base_url('auth/signin') ?>" class="text-rg">Sign In</a>
                                 </p>
                                 <?php echo form_close() ?>
                             </div>

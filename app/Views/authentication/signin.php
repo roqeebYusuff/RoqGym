@@ -59,7 +59,7 @@
                                     <button type="submit" class="btn btn-block rg-btn">Sign In</button>
 
                                     <p class="mt-3">
-                                    Create an Account <a href="<?php echo base_url('auth/signup') ?>" class="text-rg">Sign Up</a>
+                                    Don't have an account yet? <a href="<?php echo base_url('auth/signup') ?>" class="text-rg">Sign Up</a>
                                     </p>
                                 <?php echo form_close() ?>
                             </div>

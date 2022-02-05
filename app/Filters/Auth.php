@@ -27,7 +27,7 @@ class Auth implements FilterInterface
     {
         $user = session()->get('ie_user');
 		if($user == null){
-			return redirect()->to(site_url());
+			return redirect()->to(site_url('auth/signin'));
 		}
     }
 

@@ -53,14 +53,14 @@
 							<div class="head">
 								<h4>Subscribe to newsletter</h4>
 							</div>
-							<?php echo form_open_multipart() ?>
+							<?php echo form_open_multipart('test','id="form"'); ?>
 								<div class="form-group">
 									<input class="form-control" type="email" name="email" id="email" placeholder="Enter your email" required>
 								</div>
 								<div class="text-right">
 									<button class="btn rg-btn">Subscribe</button>
 								</div>
-							<?php echo form_close() ?>
+							<?php echo form_close(); ?>
 						</div>
 					</div>
 				</div>
