@@ -1,0 +1,48 @@
+ERROR - 2022-03-24 01:25:59 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-24 01:25:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Applications/MAMP/htdocs/RoqGym/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/RoqGym/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/RoqGym/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/RoqGym/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Applications/MAMP/htdocs/RoqGym/app/Controllers/User/Auth.php(18): CodeIgniter\BaseModel->findAll()
+#5 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(824): App\Controllers\User\Auth->signin()
+#6 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Auth))
+#7 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/RoqGym/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/RoqGym/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-03-24 01:30:30 --> Undefined variable: user
+#0 /Applications/MAMP/htdocs/RoqGym/app/Views/user/profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 22, Array)
+#1 /Applications/MAMP/htdocs/RoqGym/system/View/View.php(214): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/RoqGym/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/RoqGym/system/Common.php(1097): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 /Applications/MAMP/htdocs/RoqGym/app/Controllers/User/Trainers.php(13): view('user/profile')
+#5 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(824): App\Controllers\User\Trainers->index()
+#6 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Trainers))
+#7 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/RoqGym/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/RoqGym/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#10 {main}
+ERROR - 2022-03-24 12:04:25 --> Cannot add or update a child row: a foreign key constraint fails (`roqgym`.`session`, CONSTRAINT `session_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON UPDATE CASCADE)
+ERROR - 2022-03-24 12:05:13 --> Cannot add or update a child row: a foreign key constraint fails (`roqgym`.`session`, CONSTRAINT `session_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON UPDATE CASCADE)
+ERROR - 2022-03-24 12:07:17 --> Cannot add or update a child row: a foreign key constraint fails (`roqgym`.`session`, CONSTRAINT `session_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON UPDATE CASCADE)
+CRITICAL - 2022-03-24 12:12:33 --> There is no data to insert.
+#0 /Applications/MAMP/htdocs/RoqGym/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /Applications/MAMP/htdocs/RoqGym/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /Applications/MAMP/htdocs/RoqGym/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /Applications/MAMP/htdocs/RoqGym/app/Controllers/User/Sess.php(33): CodeIgniter\BaseModel->save(Array)
+#4 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(824): App\Controllers\User\Sess->bookone()
+#5 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Sess))
+#6 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/RoqGym/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/RoqGym/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2022-03-24 12:13:28 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(824): App\Controllers\User\Sess->bookone()
+#1 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Sess))
+#2 /Applications/MAMP/htdocs/RoqGym/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/RoqGym/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/RoqGym/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#5 {main}
+ERROR - 2022-03-24 12:14:39 --> Cannot add or update a child row: a foreign key constraint fails (`roqgym`.`session`, CONSTRAINT `session_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON UPDATE CASCADE)

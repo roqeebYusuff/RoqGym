@@ -200,6 +200,10 @@ Index Of Script
 
         parents.parents('li').addClass('active');
         jQuery('li.active > a[aria-expanded="false"]').attr('aria-expanded', 'true');
+        // if(jQuery('.iq-menu li a').hasClass('active')){
+        //     console.log(jQuery(this).parent())
+        //     jQuery(this).parent().addClass('active')
+        // }
 
         /*---------------------------------------------------------------------
         FullScreen

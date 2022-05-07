@@ -49,4 +49,8 @@ class BaseController extends Controller
 
         $this->session = \Config\Services::session();
     }
+
+    public function user_logout(){
+        $this->session->destroy();
+    }
 }

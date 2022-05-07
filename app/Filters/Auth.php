@@ -25,9 +25,9 @@ class Auth implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        $user = session()->get('ie_user');
+        $user = session()->get('rg_user');
 		if($user == null){
-			return redirect()->to(site_url('auth/signin'));
+			return redirect()->to(site_url('user/auth/signin'));
 		}
     }
 

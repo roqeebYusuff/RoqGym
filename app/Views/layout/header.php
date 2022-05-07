@@ -60,7 +60,7 @@
                                     <a href="#" class="nav-link">Testimonial</a>
                                 </li>
                                 <li class="nav-item auth">
-                                    <a href="<?php echo base_url('auth/signin') ?>" class="nav-link">Sign in</a>
+                                    <a href="<?php echo base_url('user/auth/signin') ?>" class="nav-link">Sign in</a>
                                 </li>
                             </ul>                     
                         </div> 

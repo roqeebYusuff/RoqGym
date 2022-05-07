@@ -33,22 +33,19 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-
-// $routes->group('auth', ['filter' => 'auth'], function ($routes) {
-//     $routes->add('signin', 'Authentication::signin');
-//     $routes->add('signup', 'Authentication::signup');
-// });
-
-// User Signed
-$routes->group('user', ['filter'=> 'auth'], function ($routes){
-    $routes->add('dashboard', 'Dashboard::index');
-});
-
-/* Auth */
-$routes->group('auth', function ($routes) {
-    $routes->add('signin', 'Authentication::signin');
-    $routes->add('signup', 'Authentication::signup');
-    $routes->add('reset', 'Authentication::passwordreset');
+$routes->group('user', function ($routes) {
+    $routes->group('auth', function ($routes) {
+        $routes->add('signin', 'User\Auth::signin');
+        $routes->add('signup', 'User\Auth::signup');
+        $routes->add('signout', 'User\Auth::signout');
+        $routes->add('reset', 'User\Auth::passwordreset');
+    });
+    $routes->add('dashboard', 'User\Dashboard::index', ['filter' => 'userAuth']);
+    $routes->add('profile', 'User\Profile::index', ['filter' => 'userAuth']);
+    $routes->add('trainers', 'User\Trainers::index', ['filter' => 'userAuth']);
+    $routes->add('my-sessions', 'User\Sess::index', ['filter' => 'userAuth']);
+    $routes->add('book-session', 'User\Sess::bookSession', ['filter' => 'userAuth']);
+    $routes->add('available-sessions', 'User\Sess::availableSession', ['filter' => 'userAuth']);
 });
 
 /*
